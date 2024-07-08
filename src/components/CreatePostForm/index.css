@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .create-post-route {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .create-post {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 470px;
+    margin: auto;
+  }
+  
+  .create-post-heading {
+    color: #433867;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+
+    font-family: "Nunito";
+  }
+  
+  .create-post-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: #333;
+    margin-bottom: 5px;
+    font-family: "Nunito";
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    font-family: "Nunito";
+  }
+  
+  input[type="text"]:focus,
+  textarea:focus {
+    border-color: #433867;
+    outline: none;
+  }
+  
+  .submit-btn {
+    background-color: #433867;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Nunito";
+  }
+  
+  .submit-btn:hover {
+    background-color: #372d54;
+  }
+
+  @media screen and (max-width : 768px) {
+    .create-post {
+        width: 90%;
+    }
+    .create-post-heading {
+        font-size: 23px;
+    }
+  }
+  

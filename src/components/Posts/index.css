@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.posts-app {
+    background : #fef1fa;
+    min-height: 100vh;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    background-size: cover;
+    margin: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    margin: 30px 0px;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    min-height: 100px;
+    padding: 15px 0px;
+    margin: 0px;
+    background-color: #372d54;
+}
+
+.create-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 96%;
+    position: relative;
+    bottom: 40px;
+    margin: 5px auto;
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    position: relative;
+}
+
+
+h1 {
+    font-family: "Nunito";
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #3f3d3d;
+    font-family: "Nunito";
+    margin: 8px;
+}
+
+.create-post-btn {
+    height: 35px;
+    background-color: #4dc4ff;
+    background-color: #372d54;
+    border: 0px;
+    color: #ffffff;
+    border-radius: 3px;
+    font-family: "Nunito";
+    width: 100px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96%;
+    height: 80%;
+    height: auto;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 10px 0px;
+    position: relative;
+top: -35px;
+}
+
+.no-posts-heading {
+    text-align: center;
+    color: #190c41;
+    font-weight: 800;
+}
+
+.no-posts-view {
+    height: 45vh;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
