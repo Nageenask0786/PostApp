@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# A responsive web application that allows users to create and edit posts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+1. A responsive web application created using ReactJS that helps users to create posts, edit posts and also delete posts.
+2. It helps users for a seamless navigation through different routes.
 
-## Available Scripts
+## Tech Stacks Used
+1. Html
+2. CSS
+3. ReactJS
+4. Vercel for deployment.
 
-In the project directory, you can run:
+## Routes
+### Posts ("/")
+1. This screen will showcase all the created posts.
+2. A more button when clicked helps user to edit or delete the post.
 
-### `npm start`
+### CreatePostForm
+1. A form to create a new post with path ("/createpost")
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### EditPostForm
+1. A form to edit a created post when edit button from more options is clicked.
+2. The path for this route is ("/editpost/:id) id is the unique id assigned to the post.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Third Party Packages Used.
+1. create-react-app : This library is a popular tool for setting up a new React project with a default configuration that includes everything you need to start building a React application.
+2. react-router-dom : This is a popular library used in React applications for handling routing. It allows you to create single-page applications with navigation without the page refreshing as the user navigates.
+3. react-icons : A library that provides a collection of popular icon packs for React applications. It allows you to easily include icons from various libraries like Font Awesome, Material Design, Ionicons, and many more in your React components.
 
-### `npm test`
+### Prerequisites
+Make sure you have Node.js and npm installed on your machine. You can download them from the [official Node.js website](https://nodejs.org/).
+ 
+### Clone the Repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository to your local machine using the following command:
 
-### `npm run build`
+```bash
+git clone https://github.com/Nageenask0786/PostApp.git
+cd
+```
+2. Install Dependencies
+Install the required dependencies using npm:
+```
+bash
+npm install
+```
+3. Start the Development Server
+Run the development server to see your application in action:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm start
+```
+This command will open your default web browser and navigate to http://localhost:3000, where you can see your React application running.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Deployed Link
+https://nageena-shaik-posts-app.vercel.app/
