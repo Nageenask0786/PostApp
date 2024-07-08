@@ -36,7 +36,7 @@ Make sure you have Node.js and npm installed on your machine. You can download t
 
 ```bash
 git clone https://github.com/Nageenask0786/PostApp.git
-cd
+cd postsapplication
 ```
 2. Install Dependencies
 Install the required dependencies using npm:
